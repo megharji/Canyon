@@ -1,0 +1,618 @@
+.roomDetails{
+    width: 100%;
+    
+    color: rgb(223, 219, 219);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+}
+
+.imageContainer {
+    position: relative;
+  margin-top: 3%;
+  width: 75%;
+  display: flex;
+  height: 520px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+  
+.imageContainer img {
+    width: 90%;
+    height: 100%;
+    object-fit: fill;
+}
+  
+.prevButton{
+    top: 50%;
+  background-color: #05547e;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+  
+.nextButton {
+    top: 50%;
+  background-color: #05547e;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+ 
+
+  transition: background-color 0.3s ease;
+}
+  
+.prevButton:hover,
+.nextButton:hover {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+}
+
+.room{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0;
+    
+
+}
+
+.room112{
+    width: 100%;
+    height: 50%;
+    padding: 0 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    color: rgb(0, 0, 0);
+
+}
+
+.room112>h1{
+    color: rgb(7, 121, 186);
+font-weight: 700;
+    font-size: 2.3vmax;
+    font-family: 'Gilroy';
+}
+
+.room112>h2{
+font-weight: 700;
+    color: rgb(7, 121, 186);
+    font-size: 1.5vmax;
+    font-family: 'Gilroy';
+}
+
+.room112>h3{
+    color: rgb(95, 96, 97);
+    font-weight: 500;
+    font-size: 1.2vmax;
+    font-family: 'Gilroy';
+}
+
+
+
+.room1{
+    width: 100%;
+   
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 1%;
+    padding: 0 2%;
+    gap: 5%;
+}
+
+.room11{
+    width:  40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.room11>h1{
+    font-size: 2vmax;
+    padding-left: 2%;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: #05547e; 
+    font-family: 'Gilroy';
+
+}
+
+
+
+
+.room111detail>h2{
+    margin-top: 1%;
+    font-size: 1.3vmax;
+    margin-bottom: 3%;
+    color: #555353;
+    display: flex;
+    gap: 2%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.roomdetail12{
+    width: 100%;
+    height: 20%;
+    background-color:#05547e;
+    padding: 5%;
+    border-radius: 10px;
+}
+
+.roomdetail12>h1{
+    color: #ffffff;
+    font-size: 2vmax;
+    text-align: center;
+    font-family: 'Gilroy';
+
+}
+
+
+.room111{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap: 5%;
+    color: rgb(0, 0, 0);
+
+    padding: 2% 1%;
+    border-bottom: 2px solid rgb(255, 255, 255);
+
+}
+
+.room111detail{
+    width: 50%;
+    height: 100%;
+    padding: 0 2%;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+}
+
+.room111detail>h2{
+
+    font-size: 1.2vmax;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+
+
+
+.reviews{
+    width: 100%;
+    background-color: #05547e; 
+    border-radius: 20px;
+    padding: 2% 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.reviewsdetails{
+    width: 100%;
+    height: 80%;
+  
+    border: 2px solid rgb(255, 255, 255);
+    margin-top: 2%;
+    padding: 5%;
+    border-radius: 20px;
+}
+
+.reviews>h1{
+    font-size: 2vmax;
+    color: white;
+}
+
+.reviews>h2{
+    font-size: 1.5vmax;
+    color: white;
+    margin-top: -1%;
+    margin-bottom: 5%;
+}
+
+.reviews>h3{
+    font-size: 2vmax;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: white;
+}
+
+.reviews>p{
+    text-align: center;
+    font-size: 1.2vmax;
+    font-weight: 700;
+    color: white;
+}
+
+.reviewsdetails>h2{
+    font-size: 1.5vmax;
+    text-align: center;
+    font-size: 900;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    color: white;
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+
+
+.reviewsdetails1{
+    width: 100%;
+    height: 20%;
+   
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviewsdetails1>h2{
+    font-size: 1.2vmax;
+    color: rgb(255, 255, 255);
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.reviewsdetails1>h1{
+    font-size: 1.2vmax;
+    color: white;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.reviews1>h2{
+    font-size: 1.5vmax;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.reviews1>h3{
+    font-size: 1vmax;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+
+.review{
+    width: 600px;
+    height: 100%;
+    padding: 1%;
+    border-radius: 20px;
+    background-color: #05547e; 
+    margin-top: -35%;
+}
+
+.reviewpara{
+    width: 100%;
+    height: 50%;
+    gap: 5%;
+
+    color: white;
+    border-radius: 20px;
+    border-bottom: 3px solid white;
+    padding: 5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5vmax;
+    justify-content: center;
+    align-items: center;
+}
+
+.review>form{
+    width: 100%;
+    height: 50%;
+    background-color: transparent; 
+    border-radius: 20px;
+    border: 3px solid white;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.review>form>input{
+    width: 100%;
+    border-radius: 10px;
+    height: 80%;
+}
+
+.review>form>textarea{
+    width: 100%;
+    border-radius: 10px;
+    height: 80%;
+}
+
+::placeholder{
+    text-align: center;
+    font-size: 1.5vmax;
+    padding-top: 1%;
+}
+
+.review textarea{
+    color: #000;
+}
+
+
+.review>form>button{
+    background-color: rgb(237, 232, 232);
+    border-radius: 50px;
+    padding: 1% 5%;
+    margin-top: 2%;
+    color: #000;
+    font-size: 1.2vmax;
+    font-weight: 900;
+    margin-bottom: 5%;
+}
+
+
+.deleteReviewBtn{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.deleteReviewBtn>button{
+    font-size: 1.5vmax;
+    padding: 0.5% 5%;
+    border-radius: 50px;
+    color: white;
+    font-weight: 900;
+    border: 2px solid white;
+    
+}
+
+@media (min-width: 360px) and (max-width: 700px) {
+    .roomDetails {
+      margin-top: 5%;
+    }
+  
+    .imageContainer {
+      width: 90%;
+      height: 300px;
+    }
+  
+    .prevButton {
+      font-size: 15px;
+    }
+  
+    .nextButton {
+      font-size: 15px;
+    }
+  
+    .room112 > h1 {
+      font-size: 3vmax;
+    }
+  
+    .room112 > h2 {
+      font-size: 2vmax;
+    }
+  
+    .room112 > h3 {
+      font-size: 1.5vmax;
+    }
+  
+    .room111des > h3 {
+      font-size: 1.5vmax;
+    }
+  
+    .room11h1 {
+      font-size: 2.5vmax;
+    }
+  
+    .room1 {
+      flex-direction: column;
+    }
+  
+    .room11 {
+      width: 100%;
+      height: 70%;
+    }
+  
+    .reviewsdetails1 > h2 {
+      font-size: 1.7vmax;
+    }
+  
+    .reviewsdetails1 > h1 {
+      font-size: 1.7vmax;
+    }
+  
+    .reviewsdetails > h2 {
+      font-size: 1.9vmax;
+    }
+  
+    .reviews>h1{
+      font-size: 2.5vmax;
+      
+  
+  }
+  
+    .roomdetail12 {
+      width: 100%;
+  
+      padding: 2% 10%;
+  
+      margin-top: 5%;
+    }
+  
+    .roomdetail12 > h1 {
+      font-size: 2vmax;
+    }
+  
+    .room111detail > h2 > img {
+      width: 7%;
+      height: 5%;
+    }
+  
+    .roomdetail11 > p {
+      font-size: 2vmax;
+    }
+  
+    .room111detail > h1 {
+      font-size: 1.5vmax;
+    }
+  
+    .room111detail > h2 > i {
+      font-size: 1.5vmax;
+    }
+  
+    .room111detail > h2 {
+      font-size: 1.5vmax;
+    }
+
+    .review{
+        width: 90%;
+       
+        margin-top: 5%;
+    }
+    
+   
+    
+  
+    .reviews {
+      width: 100%;
+      margin-top: 4%;
+    }
+  }
+  
+  @media (min-width: 700px) and (max-width: 900px) {
+      .roomDetails {
+          margin-top: 5%;
+        }
+      
+        .imageContainer {
+          width: 90%;
+          height: 300px;
+        }
+      
+        .prevButton {
+          font-size: 15px;
+        }
+      
+        .nextButton {
+          font-size: 15px;
+        }
+      
+        .room112 > h1 {
+          font-size: 3vmax;
+        }
+      
+        .room112 > h2 {
+          font-size: 2vmax;
+        }
+      
+        .room112 > h3 {
+          font-size: 1.5vmax;
+        }
+      
+        .room111des > h3 {
+          font-size: 1.5vmax;
+        }
+      
+        .room11h1 {
+          font-size: 2.5vmax;
+        }
+      
+        .room1 {
+          flex-direction: column;
+        }
+      
+        .room11 {
+          width: 100%;
+          height: 70%;
+        }
+      
+        .reviewsdetails1 > h2 {
+          font-size: 1.9vmax;
+        }
+      
+        .reviewsdetails1 > h1 {
+          font-size: 1.9vmax;
+        }
+      
+        .reviewsdetails > h2 {
+          font-size: 2.2vmax;
+        }
+      
+        .roomdetail12 {
+          width: 100%;
+      
+          padding: 2% 10%;
+      
+          margin-top: 5%;
+        }
+      
+        .roomdetail12 > h1 {
+          font-size: 2.5vmax;
+        }
+      
+        .room111detail > h2 > img {
+          width: 7%;
+          height: 5%;
+        }
+      
+        .roomdetail11 > p {
+          font-size: 2vmax;
+        }
+      
+        .room111detail > h1 {
+          font-size: 1.5vmax;
+        }
+      
+        .room111detail > h2 > i {
+          font-size: 1.5vmax;
+        }
+      
+        .room111detail > h2 {
+          font-size: 1.5vmax;
+        }
+
+        
+        
+        .deleteReviewBtn>button{
+            font-size: 2vmax;
+            padding: 1% 5%;
+           
+            
+        }
+      
+        .review{
+            width: 90%;
+           
+            margin-top: 5%;
+        }
+        
+       
+        .reviewpara{
+            font-size: 2vmax;
+   
+        }
+      
+        .reviews {
+          width: 100%;
+          margin-top: 4%;
+        }
+
+        .reviews>h1{
+            font-size: 3vmax;
+        }
+  }
+  

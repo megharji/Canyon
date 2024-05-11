@@ -1,0 +1,415 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('/public/Fonts/Gilroy-FREE') format('truetype'); 
+    
+}
+
+
+
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.main>h1{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-weight: 900;
+    font-size: 2vmax;
+    color: #07496d;
+    border-bottom: 10px dotted #07496d;
+    font-family: 'Gilroy';
+}
+
+
+.filterOptions{
+    width: 100%;
+    height: 300px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1%;
+    padding: 1% 5%;
+    background-position: center;
+    margin-top: 2%;
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.482) 24%, rgba(0, 0, 0, 0.411) 100%), url(https://mymodernmet.com/wp/wp-content/uploads/2018/09/cityscape-photorealistic-painting-nathan-walsh-9.jpg);
+    border: 1px solid gray;
+
+}
+
+.filterOptions>h1{
+    color: rgb(255, 255, 255);
+    font-size: 1.8vmax;
+    font-weight: 700;
+    border-bottom: 10px dotted white;
+    font-family: 'Gilroy';
+
+}
+
+.content{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+
+}
+
+.button{
+    width: 60%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    gap: 5%;
+}
+
+.button>button{
+    border-radius: 50px;
+    padding: 1% 5%;
+    font-size: 1.1vmax;
+    border: 2px solid white;
+    font-weight: 900;
+    background-color: #07496d;
+}
+
+.content>select{
+    border-radius: 50px;
+    padding: 0.5%;
+    font-size: 1.2vmax;
+    font-weight: 500;
+    color: #000000;
+    width: 20%;
+}
+
+.content>select>option{
+    
+    color: #050505;
+}
+
+.content>input{
+    width: 20%;
+    border-radius: 50px;
+    padding: 0.5%;
+    color: #000;
+}
+
+.content>input::placeholder{
+    color: #000;
+    font-weight: 500;
+    font-size: 1.2vmax;
+    text-align: center;
+}
+
+.main>p{
+    color: #262525;
+}
+
+.roomList{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding: 3% 2%;
+}
+
+.roomList>p{
+    font-size: 2vmax;
+    font-weight: 500;
+    color: #000;
+}
+
+.roomhead1{
+    margin-top: 3%;
+    font-weight: 900;
+    font-family: 'Gilroy';
+    font-size: 2vmax;
+    color: #07496d;
+    border-bottom: 10px dotted #07496d;
+}
+
+.roomdetail{
+     margin-top: 5%;
+     width: 370px;
+     border-radius: 10px;
+     height: 450px;
+     background-color: #043854; 
+ color: white;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+}
+
+.roomupdate{
+    width: 90%;
+    margin-top: 3%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+
+
+.roomupdate>.button{
+    font-size: 1vmax;
+    font-weight: 800;
+    padding: 0.5% 1%;
+    background-color: #ffffff;
+    color: #05547E;
+    border-radius: 10px;
+    font-family: 'Gilroy';
+
+}
+
+
+.roomupdate>.button:hover{
+    background-color: #05547E; 
+    color: white;
+    border: 1px solid white;
+}
+
+
+.room{
+     width: 100%;
+     border-radius: 10px;
+     height: 80%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.room>img{
+    width: 100%;
+    height: 230px;  
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 5%;
+}
+
+.room>h3{
+    font-size: 28px;
+    margin-bottom: 2%;
+    color: #ece9e9;
+    font-weight: 800;
+    font-family: 'Gilroy';
+    text-align: center;
+}
+
+.room>h4{
+    font-size: 18px;
+    color: #ece9e9;
+    font-weight: 300;
+    font-family: 'Gilroy';
+}
+
+.room>p{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 200;
+    width: 95%;
+    text-align: center;
+    font-family: 'Gilroy';
+
+}
+
+
+
+@media(min-width:360px) and (max-width:600px){
+    .filterOptions{
+        height: 220px;
+
+    }
+    .filterOptions>h1{
+        font-size: 2.5vmax;
+        border-bottom: 5px dotted white;    
+    }
+    
+    .content{
+        width: 100%;
+        height: 50%;   
+        margin-top: 1%;    
+    }
+
+    .roomdetail{
+
+        width: 320px;
+        
+    }
+
+   
+    
+    
+    .roomupdate>.button{
+        font-size: 1.9vmax;
+        
+        padding: 5% 1%;
+       
+    
+    }
+    
+    
+    .content>select{        
+        padding: 1%; 
+        width: 30%;
+        color: #000000;
+    }
+
+    .content>input{
+        width: 30%;
+       font-size: 1.7vmax;
+    }
+
+    .content>input::placeholder{
+        text-align: start;
+        padding-left: 3%;
+    }
+    
+    .button{
+        width: 80%;
+        height: 10%;  
+        margin-top: 2%;    
+     
+    }
+    
+    .button>button{
+        font-size: 1.5vmax;       
+    }
+    
+}
+
+@media(min-width:600px) and (max-width:800px){
+    .roomdetail{
+
+        width: 320px;
+        
+    }
+
+    .roomupdate>.button{
+        font-size: 1.9vmax;
+        
+        padding: 5% 1%;
+       
+    
+    }
+    .filterOptions{
+        height: 250px;
+
+    }
+    .filterOptions>h1{
+        font-size: 2.5vmax;
+        border-bottom: 5px dotted white;    
+    }
+    
+    .content{
+        width: 100%;
+        height: 50%;   
+        margin-top: 1%;    
+    }
+
+    .content>select{        
+        padding: 1%; 
+        width: 30%;
+        color: #000000;
+    }
+
+    .content>input{
+        width: 30%;
+       font-size: 1.7vmax;
+    }
+
+    .content>input::placeholder{
+        text-align: start;
+        padding-left: 3%;
+    }
+    
+    .button{
+        width: 60%;
+        height: 10%;  
+        margin-top: 2%;    
+     
+    }
+    
+    .button>button{
+        padding: 0.5% 7%;
+        font-size: 1.5vmax;       
+    }
+    
+}
+
+@media(min-width: 800px) and (max-width:1100px){
+    .roomdetail{
+
+        width: 320px;
+        
+    }
+
+   
+    
+    
+    .roomupdate>.button{
+        font-size: 1.5vmax;
+        
+        padding: 5% 2%;
+       
+    
+    }
+    .filterOptions{
+        height: 300px;
+
+    }
+    .filterOptions>h1{
+        font-size: 2.5vmax;
+        border-bottom: 5px dotted white;    
+    }
+    
+    .content{
+        width: 100%;
+        height: 50%;   
+        margin-top: 1%;    
+    }
+
+    .content>select{        
+        padding: 1%; 
+        width: 30%;
+        color: #000000;
+    }
+
+    .content>input{
+        width: 30%;
+       font-size: 1.7vmax;
+    }
+
+    .content>input::placeholder{
+        text-align: start;
+        padding-left: 3%;
+    }
+    
+    .button{
+        width: 60%;
+        height: 10%;  
+        margin-top: 2%;    
+     
+    }
+    
+    .button>button{
+        padding: 0.5% 5%;
+        font-size: 1.5vmax;       
+    }
+    
+}

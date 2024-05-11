@@ -1,0 +1,88 @@
+.pg2{
+    width: 100%;
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3%;
+    gap: 5%;
+}
+
+
+
+.pg2content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.pg2content1{
+    width: 350px;
+    height: 400px;
+    display: flex;
+    padding: 1%;
+    margin-bottom: 3%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #07496d;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    gap: 2%;
+}
+
+
+.pg2content1>h1{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.pg2content1>i{
+    font-size: 3.5vmax;
+    text-align: center;
+}
+
+.pg2content1>p{
+    font-size: 15px;
+    text-align: center;
+}
+
+@media(min-width:360px) and (max-width:900px){
+    .pg2content{
+    
+        margin-top: 5%;
+    }
+    .pg2content1{
+        width: 300px;
+        height: 350px;
+        display: flex;
+        padding: 1%;
+        margin-bottom: 3%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #07496d;
+        border-radius: 20px;
+        color: rgb(255, 255, 255);
+        gap: 2%;
+    }
+
+    .pg2content1>h1{
+        font-size: 25px;
+       
+    }
+    
+    .pg2content1>i{
+        font-size: 40px;
+    }
+    
+    .pg2content1>p{
+        font-size: 14px;
+    }
+
+}
+

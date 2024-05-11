@@ -1,0 +1,189 @@
+.about1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 1%;
+    gap: 2%;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.aboutpic{
+    width: 30%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutpic1{
+    width: 17%;
+    height: 57%;
+    border-radius: 50px;
+    background-color: #07496d39;
+    position: absolute;
+    transform: rotate(10deg);
+}
+
+.aboutpic>img{
+    width: 60%;
+    height: 80%;
+    background-color: #07496d;
+    position: relative;
+    border-radius: 50px;
+    z-index: 99;
+}
+
+.aboutpic2{
+    width: 17%;
+    height: 57%;
+    border-radius: 50px;
+    background-color: #07496d3d;
+    position: absolute;
+    transform: rotate(20deg);
+}
+
+
+
+.about1>p{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1.5vmax;
+    color: #07496d;
+    text-align: center;
+    font-family: cursive;
+   
+}
+
+@media(min-width:360px) and (max-width:600px){
+
+    .about1{
+        flex-direction: column;
+        margin-top: 8%; 
+        padding: 5% 1%;
+        
+    }
+    
+    
+    
+    .aboutpic1{
+        width: 130px;
+        height: 190px;
+        border-radius: 20px;
+        
+       
+    }
+    
+    .aboutpic>img{
+        width: 150px;
+        height: 180px;
+        border-radius: 20px;
+    }
+    
+    .aboutpic2{
+        width: 130px;
+        height: 180px;
+        border-radius: 20px;
+       
+    }
+    
+    
+    
+    .about1>p{
+        margin-top: 10%;
+        width: 95%;
+       
+        font-size: 1.7vmax;
+      
+       
+    }
+}
+
+@media(min-width:600px) and (max-width:900px){
+
+    .about1{
+        flex-direction: column;
+        margin-top: 8%; 
+        padding: 5% 1%;
+        
+    }
+    
+    
+    
+    .aboutpic1{
+        width: 180px;
+        height: 280px;
+        border-radius: 20px;
+    }
+    
+    .aboutpic>img{
+        width: 200px;
+        height: 280px;
+        border-radius: 20px;
+    }
+    
+    .aboutpic2{
+        width: 180px;
+        height: 280px;
+        border-radius: 20px;
+       
+    }
+    
+    
+    
+    .about1>p{
+        margin-top: 10%;
+        width: 95%;
+       
+        font-size: 1.8vmax;
+      
+       
+    }
+}
+
+
+@media(min-width:900px) and (max-width:1500px){
+
+    .about1{
+        flex-direction: column;
+        margin-top: 5%; 
+        padding: 5% 1%;
+        
+    }
+    
+    
+    
+    .aboutpic1{
+        width: 250px;
+        height: 320px;
+        border-radius: 20px;
+    }
+    
+    .aboutpic>img{
+        width: 250px;
+        height: 320px;
+        border-radius: 20px;
+    }
+    
+    .aboutpic2{
+        width: 250px;
+        height: 320px;
+        border-radius: 20px;
+       
+    }
+    
+    
+    
+    .about1>p{
+        margin-top: 10%;
+        width: 95%;
+       
+        font-size: 2vmax;
+      
+       
+    }
+}

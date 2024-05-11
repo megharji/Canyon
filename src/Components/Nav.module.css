@@ -1,0 +1,260 @@
+body{
+    position: relative;
+    overflow-x: hidden;
+}
+.main{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 9999;
+    color: #000;
+}
+
+.navBackground {
+    background-color: #502223ef; 
+  }
+  .profileBackground {
+
+    background-color: transparent;
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.66) 24%, rgba(0, 0, 0, 0.6) 100%), url(https://images.unsplash.com/photo-1587772218185-6e7636e1ef37?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position-y: 10%;
+    background-position-x: 50.5%;
+    border-bottom: 3px solid rgb(138, 131, 131);
+  } 
+
+.navbar{
+    width: 100%; 
+    height: 90%;
+    padding: 0 1%;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    
+}
+
+
+.logo{
+    width: 20%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+.logo>img{
+    width: 30%;
+    margin-left: 5%;
+}
+
+.home{
+    font-size: 2vmax;
+    margin-top: -1%;
+    margin-left: -3%;
+    font-weight: 600;
+    font-family: 'Gilroy';
+    border-bottom: none;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
+
+.container1{
+    font-size: 1.3vmax;
+    font-weight: 600;
+    color: #545151;
+    font-family: 'Gilroy';
+}
+
+.container11{
+    font-size: 1.7vmax;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Gilroy';
+   
+}
+
+.container10{
+    font-size: 1.6vmax;
+    text-align: center;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: 'Gilroy';
+}
+
+.nav{
+    width: 15%; 
+    height: 60%;  
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    background-color:#07496d;
+    border-radius: 0 0 0 20px;
+    z-index: 99;
+    position: absolute; 
+    right: 0; 
+    top: 0; 
+    gap: 5%;
+    padding: 2%;
+}
+
+
+.navbutton>i{
+    margin-left: 90%;
+    font-size: 2vmax;
+    color: white;
+}
+
+.container{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    margin-right: 10%;
+    color: white;
+    z-index: 9999;
+    gap: 5%;
+}
+
+.container2{
+    width: 5%;
+    margin-right: 1%;
+    height: 4%;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 2%;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 0px px;
+
+}
+
+.container2>i{
+    font-size: 1.7vmax;    
+}
+
+.login{
+    margin-left: 10%;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+.login>h1{
+    font-size: 1.5vmax;
+    font-weight: 900;
+}
+
+
+@media(min-width:360px) and (max-width:500px){
+    .logo>img{
+        width: 40%;
+        margin-left: 2%;
+    }
+    
+    .home{
+        font-size: 1.5vmax;
+        margin-top: -1%;
+        margin-left: -3%;
+        font-weight: 600;
+        font-family: 'Gilroy';
+        color: rgb(0, 0, 0);
+    }
+    
+    .container2{
+        width: 12%;        
+        margin-top: 1%;
+    
+    }
+    .navbar{
+        height: 100%;
+        
+    }
+    .container1{
+        font-size: 1vmax;
+     
+        
+    }
+    .nav{
+        width: 38%; 
+        height: 32%;  
+       
+    }
+
+    .container10{
+        font-size: 1.5vmax;
+        
+    }
+    .container11{
+        font-size: 2vmax;
+
+    }
+    
+}
+
+@media(min-width:500px) and (max-width:900px){
+   
+    .container2{
+        width: 7%;        
+        margin-top: 1%;
+    
+    }
+   
+    .container1{
+        font-size: 1.5vmax;
+    }
+
+    .nav{
+        width: 35%; 
+        height: 35%;  
+       
+    }
+    
+    .container10{
+        font-size: 2vmax;
+        
+    }
+    .container11{
+        font-size: 2.5vmax;
+
+    } 
+    
+}
+
+@media(min-width:900px) and (max-width:1000px){
+   
+    .container2{
+        width: 7%;        
+        margin-top: 1%;
+    }
+   
+   
+    .nav{
+        width: 27%; 
+        height: 40%;  
+       
+    }
+
+    .container10{
+        font-size: 2vmax;
+        
+    }
+    .container11{
+        font-size: 2.5vmax;
+
+    } 
+    
+    
+   
+}
