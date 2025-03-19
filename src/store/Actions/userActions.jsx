@@ -33,10 +33,17 @@ export const asynccurrentSeekers = () => async (dispatch) => {
 
 export const asyncseekersregister = (user) => async (dispatch,getState) => {
     try {
+        console.log("user=",user);
+        
         const response = await axios.post("/seekers/register", user, {
             withCredentials: true
         });
+
+        console.log("response=",response);
+        
         const data = response.data;
+        console.log("data=",data);
+        
         dispatch(saveSeekers(data.user));
         dispatch(saveLoggedInUserId(data.user._id));
 

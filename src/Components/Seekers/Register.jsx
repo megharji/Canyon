@@ -38,6 +38,8 @@ const Register = () => {
       return
     }
     try {
+      console.log("formData=",formData);
+      
       await dispatch(asyncseekersregister(formData));
       dispatch(asynccurrentSeekers());
       navigate("/seekers/profile");

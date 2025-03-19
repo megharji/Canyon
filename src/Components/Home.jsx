@@ -27,6 +27,7 @@ const [searchClicked, setSearchClicked] = useState(false);
 
 useEffect(() => {
     dispatch(asyncprofile());
+    
 }, []);
 
 const handleFilterChange = (event) => {

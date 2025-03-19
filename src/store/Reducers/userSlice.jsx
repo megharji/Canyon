@@ -27,7 +27,7 @@ export const userSlice = createSlice({
             state.isAuth = false;
         },
         saveRooms: (state, action) => {
-            state.rooms = action.payload; 
+            state.rooms = action.payload; i
         },
         setRoomReviews: (state, action) => {
             state.reviews = action.payload; 
